@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  height: 25em;
+  border-radius: 5%;
+}
+.card-header {
+  vertical-align: top;
+  border-bottom: none;
+  font-size: 5em;
+}
+.card-footer {
+  vertical-align: bottom;
+  border-top: none;
+  font-size: 5em;
+  transform: rotate(180deg);
+}
+.container {
+  width: 280px;
+}
+.card-number {
+  font-size: 8em;
+  font-family: fantasy;
+}
+.spade {
+  color: black;
+}
+.club {
+  color: n black;
+}
+.heart {
+  color: red;
+}
+.diamond {
+  color: red;
+}
